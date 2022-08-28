@@ -1,0 +1,35 @@
+body{
+  font-family: 'Merriweather', serif;
+  margin:0;
+  text-align: center;
+
+}
+
+h1{
+  bottom: 25px;
+  font-family: 'Sacramento', cursive;
+  top:25px;
+
+
+}
+
+.top-container{
+  background-color: #B1E1FF;
+  padding: 100px;
+  position: relative;
+
+}
+
+.bottomimage{
+  bottom:300px;
+  left:200px;
+  position:absolute;
+
+}
+.topimage{
+  position: absolute;
+  right:300px;
+  top:50px;
+
+
+}
