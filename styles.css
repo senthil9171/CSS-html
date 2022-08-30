@@ -1,139 +1,171 @@
-body{
-color: #40514E;
-  font-family: 'Merriweather', serif;
-  text-align: center;
-  font-size: 100%;
 
+body {
+  font-family: "Montserrat-Black";
 }
 
-h1{
-  bottom: 25px;
-  font-family: 'Sacramento', cursive;
-  font-size: 5.625rem;
-  top:25px;
-  margin-top: 50px;
-  color: #66BFBF;
-
-
+#title{
+  background-color: #ff4c68;
+  color: #fff;
 }
-.first{
-  font-size: 2.5rem;
-  color: #66BFBF;
+
+h1 {
+  font-family: "Montserrat-extrabold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+
 }
 h2{
-  font-size: 2.5rem;
-  color: #66BFBF;
-  font-weight: normal;
-  padding-bottom: 10px;
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
 }
-
 h3{
-  color: #11999E;
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+
 }
 
-p{
-  line-height: 2;
+p {
+  color: #8f8f8f;
 }
-hr{
-  border: dotted #EAF6F6 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
-}
-a{
-  color: #11999E;
-  margin: 10px 20px;
-  text-decoration: none;
+.container-fluid{
+  padding: 3% 15%;
+
 }
 
-a:hover{
-  color: #EAF6F6;
+.navbar{
+  padding: 0 0 4.5rem;
 }
-.top-container{
-  background-color: #B1E1FF;
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+}
+
+/* button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* titleimage */
+
+.title-image{
+
+    padding: 0 0 0 20%;
+
+
+
+}
+
+
+/* features */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+
+
+
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+
+}
+
+.icon{
+  color: #ef8172;
+  margin: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonial */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #Ef8172;
+  color: #fff;
+
+}
+
+/* testimonial-image */
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
   padding: 100px;
-  position: relative;
-
+  text-align: center;
 }
 
-.middle-container{
-  margin: 100px 0;
-}
-.bottom-container{
-  background-color: #66BFBF;
-  padding: 50px 0 20px;
-}
-.bottomimage{
-  bottom:300px;
-  left:200px;
-  position:absolute;
-
-}
-.topimage{
-  position: absolute;
-  right:300px;
-  top:40px;
-
-
+.pricing-column{
+  padding: 3% 2%;
 }
 
-.skill-row{
-  width: 80%;
-  margin: 100px auto 100px auto;
-  text-align: left;
 
-}
-
-.Azure{
-  width: 20%;
-  float:left;
-  margin-right: 30px;
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
 
   }
-.Azure1{
-  width: 20%;
-  float:right;
-  margin-left: 30px;
 }
-.intro{
-  width: 30%;
-  margin: auto;
-}
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
 
-.contact-message{
-  width: 40%;
-  margin: 40px auto 60px;
-  color: #66BFBF;
-}
-.copyright{
-  color: #EAF6F6;
-  font-size: 0.75rem;
-  padding: 20px 0;
-}
 
-.btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #1199e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #1199e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #1199e);
-  background-image: -o-linear-gradient(top, #11cdd4, #1199e);
-  background-image: linear-gradient(to bottom, #11cdd4, #1199e);
-  -webkit-border-radius: 21;
-  -moz-border-radius: 21;
-  border-radius: 21px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
 }
+#footer{
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
 
-.btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  text-decoration: none;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+.h3color{
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  color: #fff;
+  line-height: 1.5;
 }
